@@ -1,0 +1,3 @@
+[submodule "php_loose_json_decode"]
+	path = php_loose_json_decode
+	url = http://192.168.100.4:3000/Joe-Dev/php_loose_json_decode.git

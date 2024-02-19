@@ -1,0 +1,133 @@
+html {
+	overflow-y:scroll; /* Immer Scrollbar anzeigen --> verhindert verrutschen von der Website bei wenig Content */
+	height: 100%;
+}
+
+body {
+	margin: 0; /* Standard-Margin verhindern */
+	height: 100%; /* body soll ganzes Browserfenster benutzen */
+	font-family: Verdana;
+	text-align: center;
+	background-color: #293345; /*Dunkelblaue Seiten*/
+}
+
+/*------------------------------------------------------------------------------------*/
+
+#main {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 40px; /*Weil URL-Tool nach oben margin von 40px hat*/
+	
+	margin-left: 15%;
+	margin-right: 15%;
+	
+	min-height: 100%;
+	
+	background-color: #ffffff;
+}
+
+/*Logo*/
+#header img {
+	width: 200px;
+	height: 200px;
+	margin-top: 40px; /*Abstand zu oberen Bildschirmrand*/
+}
+
+#introduction {
+	margin-top: 40px; /*Abstand zum Header*/
+	margin-bottom: 40px; /*Abstand zur API-URL-Sektion*/
+	border-left: 6px solid #333;
+	background-color: #f0f0f0;
+	padding: 30px;
+}
+
+#apiuse {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+	border-bottom: 4px dashed #333;
+	
+	padding-bottom: 30px;
+	padding-top: 0px;
+}
+#apiuse h3 {
+	margin-top: 40px;
+}
+
+.codebox {
+	text-align: left;
+	
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	padding: 15px;
+	
+	font-family: Courier New; /*Beste Code-Schrift :-)*/
+	background-color: #3a3a3a; /*Schwarzer Hintergrund der Code-Schnipsel*/
+	color: #23ff00; /*Grüne Schriftfarbe*/
+	
+	word-break: break-all;
+}
+
+.infobox {
+	border: 4px solid #333;
+	padding: 30px;
+	text-align: left;
+	margin-top: 50px;
+	border-radius: 20px;
+}
+
+footer {
+	/*Könnte Footer auf main-Breite bringen*/
+	/*margin-left: 15%;*/
+	/*margin-right: 15%;*/
+	
+	padding: 20px;
+	text-align: center;
+	background: #333; /*Schwarzer Hintergrund*/
+	height: 50px; /*Höhe des Footer*/
+	color: #ffffff; /*Weiße Schrift*/
+}
+
+/*------------------------------------------------------------------------------------*/
+/*Input*/
+
+input:hover {
+	/*Schatten, den Button, Eingabefelder, Radio-Buttons werfen, wenn über sie gehovert wird*/
+	box-shadow: 0px 0px 8px #aaaaaa;
+}
+
+input[type=text] {
+	width: 300px;
+	border-radius: 20px;
+	padding: 10px;
+	border: 2px solid #333;
+	background-color: #ffffff; /*Hintergrundfarbe im Text-Feld*/
+}
+
+/*------------------------------------------------------------------------------------*/
+/*Buttons*/
+
+.betterButton {
+	padding: 20px;
+	text-decoration: none;
+	background-color: #333;
+	color: #ffffff;
+	font-size: 12pt;
+	
+	margin-top: 20px;
+	border: 0;
+	border-radius: 20px;
+}
+.betterButton:hover {
+	background-color: #000;
+	cursor: pointer;
+}
+.betterButton:visited {
+	color: #ffffff;
+}

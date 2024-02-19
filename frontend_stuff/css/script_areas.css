@@ -1,0 +1,21 @@
+/*apiurl-<div> mit getApiUrl-<b>*/
+#apiurl {
+	font-size: 15pt;
+	font-weight: bold;
+	color: #294a87; /*Blaue Schrift*/
+	
+	/*Gestrichelte Border*/
+	border-bottom: 4px dashed #333;
+	border-top: 4px dashed #333;
+	padding: 30px; /*Innenabstand*/
+}
+
+/*urlTool*/
+#urlTool {
+	border: 1px solid #f4f4f4;
+	background-color: #ededed;
+	border-radius: 25px;
+}
+#urlToolBox {
+	width: 300px;
+}
